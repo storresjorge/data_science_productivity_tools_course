@@ -15,22 +15,6 @@ We are going to use the following library:
 library(tidyverse)
 ```
 
-    ## Warning: package 'tidyverse' was built under R version 3.6.3
-
-    ## Warning: package 'ggplot2' was built under R version 3.6.3
-
-    ## Warning: package 'tidyr' was built under R version 3.6.3
-
-    ## Warning: package 'readr' was built under R version 3.6.3
-
-    ## Warning: package 'purrr' was built under R version 3.6.3
-
-    ## Warning: package 'dplyr' was built under R version 3.6.3
-
-    ## Warning: package 'stringr' was built under R version 3.6.3
-
-    ## Warning: package 'forcats' was built under R version 3.6.3
-
 and load the data we already wrangled:
 
 ``` r
@@ -40,7 +24,6 @@ load("rda/murders.rda")
 ## Murder rate by state
 
 We note the large state to state variability by generating a barplot
-showing the murder rate by
-state:
+showing the murder rate by state:
 
 ![](report_on_gun_murders_files/figure-gfm/murder-rate-by-state-1.png)<!-- -->
